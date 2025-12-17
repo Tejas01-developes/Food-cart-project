@@ -1,0 +1,260 @@
+.menuecontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.additerminput{
+    padding: 15px 15px;
+    border-radius: 15px;
+
+}
+.additermselect{
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.additermtextarea{
+    height: 100px;
+    width: 300px;
+    
+}
+.button{
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.button:hover{
+    padding: 15px 15px;
+    transition: 0.4s;
+}
+.button:active{
+    padding: 5px 5px;
+   
+    
+}
+
+.homeheader{
+    position: relative;
+    background-color: chartreuse;
+    height: 90px;
+    color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+
+}
+
+
+.heading{
+   margin-left: 550px;
+   
+}
+
+.profileicon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+    margin-right: 20px;
+}
+
+.foodimages{
+    width: 100vw;
+    height: 400px;
+transition: opacity 0.5s ease-in-out;
+border-radius: 0;
+  
+} 
+
+ .sliders{
+width: 100vw;
+height: 400px;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #fff8e1;
+position: relative;
+} 
+
+.catagorycontainer{
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    overflow-x: auto;
+    padding: 20px;
+    width: 100%;
+    
+}
+
+
+
+
+
+.catagorydiv{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.catagoryimages{
+    height: 100px;
+    width: 140px;
+    transition: transform 0.3s ease;
+    border-radius: 50%; 
+    cursor: pointer;
+}
+
+
+.catagoryimages:hover {
+    transform: scale(1.1);
+  
+  }
+  
+
+.catagorylable{
+    margin-top: 8px;
+    font-weight: bold;
+    color: orange;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.cartlogo{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 370px;
+  cursor: pointer;
+
+}
+
+
+.profiledropdown{
+    position: absolute;
+    right: 0;
+    top: 60px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 180px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: left;
+    z-index: 1000;
+}
+
+.profilebutton{
+    width: 100%;
+    padding :8px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.profilebutton:hover {
+    background-color: darkorange;
+  }
+
+
+
+  .itermscontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+    background-color: #e8f5e9;
+  }
+
+
+
+  .itermcard{
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,100,0,0.1);
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+
+  .itermcard:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,100,0,0.2);
+  }
+
+  .itermimage{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+
+  .itermname{
+    font-size: 18px;
+    color: #2e7d32;
+    font-weight: bold;
+    margin: 10px 0 5px;
+  }
+
+  .itermdescription{
+    font-size: 14px;
+    color: #555;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+.itermfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.itemprice {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1b5e20;
+  }
+  
+  .addbutton {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addbutton:hover {
+    background-color: darkorange;
+  }
+
+
+.cartcontainer{
+  width: 100%;
+  height:97vh;
+  background-color: chartreuse;
+
+}
+  
