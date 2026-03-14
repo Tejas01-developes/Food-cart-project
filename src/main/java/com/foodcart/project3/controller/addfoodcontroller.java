@@ -23,6 +23,7 @@ public class addfoodcontroller {
     private final String folder="itermsimage/";
 
 @PostMapping("/additerm")
+    
 @CrossOrigin(origins = "http://localhost:5173",allowCredentials = "true")
 public ResponseEntity<?>additerms(@RequestParam ("file") MultipartFile file,
 @RequestParam("name") String name,@RequestParam("price")Double price,@RequestParam("catagary")String catagary,@RequestParam("description")String description) throws IOException {
